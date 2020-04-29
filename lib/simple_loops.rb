@@ -29,7 +29,7 @@ end
 def return_string_array(array)
   new_array = []
   array.each do |item|
-    puts array.to_s
+    array.push(item.to_s)
   end
-  return new_array [""]
+  return new_array
 end
