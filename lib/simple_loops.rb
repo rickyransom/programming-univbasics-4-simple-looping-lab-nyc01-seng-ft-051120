@@ -31,5 +31,5 @@ def return_string_array(array)
   array.each do |item|
     puts array.to_s
   end
-  return new_array
+  return new_array [""]
 end
